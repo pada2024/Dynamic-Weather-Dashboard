@@ -1,5 +1,5 @@
 const searchFormEl = document.querySelector('#search-form');
-
+const APIKey = "c057bce0c648afb5f7c5c2f415a6141e";
 function handleSearchFormSubmit(event) {
   event.preventDefault();
 
