@@ -58,7 +58,7 @@ function printResults(resultObj) {
 }
 
 function searchApi(query, format) {
-  let locQueryUrl = 'https://www.loc.gov/search/?fo=json';
+  let locQueryUrl = 'https://api.openweathermap.org/data/2.5/weather?q={oakland}&appid={c057bce0c648afb5f7c5c2f415a6141e}';
 
   if (format) {
     locQueryUrl = `https://www.loc.gov/${format}/?fo=json`;

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Results | Dynamic Weather Dashboard</title>
+  <title>Results | Weather Dashboard</title>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
     rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/jass.css" />
@@ -19,7 +19,7 @@
       <form id="search-form" class="mb-2">
         <input id="search-input" class="form-input w-100" type="text" placeholder="Search!">
         <select id="format-input" class="form-input w-100">
-          <option value="" disabled selected>Select a format...</option>
+          <option value="" disabled selected>Select a city...</option>
           <option value="oakland">Oakland</option>
           <option value="las-vegas">Las Vegas</option>
           <option value="lake-tahoe">Lake Tahoe</option>
@@ -36,7 +36,7 @@
     </div>
 
     <div class="col-12 col-md-9 p-3 text-light">
-      <h2>Showing results for <span id="result-text"></span></h2>
+      <h2>Showing weather for <span id="result-text"></span></h2>
       <div id="result-content"></div>
     </div>
   </div>
